@@ -15,32 +15,41 @@
 
   <main class="card">
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: June 17, 2026</p>
+    <p class="updated">Last updated: July 23, 2026</p>
 
-    <p>Aether (“Aether,” “we,” “us”) is a personal manifestation and visualization app. We designed Aether to be <strong>private by default</strong>: it works offline and your personal reflections stay on your device. This policy explains what that means in practice.</p>
+    <p>Aether (“Aether,” “we,” “us”) is a personal manifestation and visualization app. This policy explains what information the app processes, why it is used, and the choices available to you.</p>
 
     <h2>The short version</h2>
     <ul>
-      <li>We do <strong>not</strong> require an account, email, or login.</li>
-      <li>We do <strong>not</strong> collect, sell, or share your personal data.</li>
-      <li>We do <strong>not</strong> use third-party analytics, advertising, or tracking SDKs.</li>
-      <li>Your intentions, sessions, affirmations, journal entries, and dream entries are stored <strong>locally on your device</strong> and are not transmitted to us.</li>
+      <li>Sign in with Apple is optional. Aether never receives your Apple password or payment-card information.</li>
+      <li>We do <strong>not</strong> sell personal information, show third-party ads, or track you across other companies’ apps and websites.</li>
+      <li>Durable app content can synchronize through your private iCloud database when iCloud is available.</li>
+      <li>Information needed to create personalized stories, images, affirmations, and narration is sent securely to cloud generation providers.</li>
     </ul>
 
-    <h2>Information stored on your device</h2>
-    <p>To make the app work, Aether stores the content you create — your name (a display name you choose), intentions, generated visualization sessions, affirmation favorites, gratitude journal entries, dream-journal entries, mood ratings, and practice streak — in local on-device storage (Apple SwiftData). This information never leaves your device unless you explicitly use an optional feature described below. Deleting the app removes this data.</p>
+    <h2>Information stored by Aether</h2>
+    <p>Aether stores content and preferences needed to provide the app, including the display name you choose, personal context, intentions, generated visualization sessions, affirmation favorites, journal entries, dream entries, mood ratings, practice progress, reference photos, and narration preferences. Generated audio and other regenerable caches remain local to the device.</p>
 
-    <h2>Optional AI enhancement</h2>
-    <p>Aether can generate guided visualization scripts and dream reflections entirely on-device. Some versions of the app may offer an <em>optional</em> AI-enhancement that improves these results by sending the relevant text you provide (for example, an intention or a dream description) to a third-party AI provider (OpenAI) for processing. When this optional feature is used:</p>
+    <h2>Private iCloud synchronization</h2>
+    <p>When you are signed in to iCloud and iCloud is available, Aether uses Apple CloudKit to synchronize durable content through your private iCloud database. Apple controls that database under your iCloud account. Changes and deletions can propagate to your other devices. If iCloud is unavailable, the app can continue using its local store and will show the sync status in Settings.</p>
+
+    <h2>Cloud generation</h2>
+    <p>To create personalized guided visualizations, titles, images, affirmations, dream reflections, and narration, Aether sends the information needed for that request to our secured service and its generation providers, including OpenAI and Cartesia. Depending on the feature, this can include personal context, an intention or journal excerpt you chose to use for personalization, story text, narration settings, and reference images you supplied. When cloud generation is used:</p>
     <ul>
-      <li>Only the text needed to generate that result is sent, with no name, account, device identifier, or location attached.</li>
-      <li>The text is used solely to return the generated result and is not stored by us.</li>
-      <li>If the feature is unavailable or you do not enable it, the app falls back to fully on-device generation.</li>
+      <li>The information is used to fulfill the feature you requested and operate or secure the service.</li>
+      <li>Your provider API credentials are not included in the app; requests pass through Aether’s secured service.</li>
+      <li>Aether does not use this content for third-party advertising or cross-app tracking.</li>
     </ul>
-    <p>OpenAI’s handling of API data is governed by their own policies. If a build of Aether does not include this feature, no data is transmitted off your device at all.</p>
+    <p>Those providers process API data under their applicable business and privacy terms. Network access is required for cloud-generated results.</p>
+
+    <h2>Sign in with Apple</h2>
+    <p>If you choose Sign in with Apple, Aether stores Apple’s app-specific account identifier and the name Apple supplies on first authorization. Aether converts that identifier into a non-reversible, app-specific identifier before using it to associate subscription access through RevenueCat. Sign in with Apple is not required for Apple’s private iCloud synchronization.</p>
 
     <h2>Subscriptions and purchases</h2>
-    <p>Aether offers optional auto-renewable subscriptions and a one-time purchase through Apple’s App Store. Payments and any free-trial eligibility are handled entirely by Apple; we never receive or store your payment information. Apple’s processing of purchases is governed by Apple’s privacy policy.</p>
+    <p>Aether offers optional auto-renewable subscriptions through Apple’s App Store. Apple processes payment details and determines trial eligibility. RevenueCat processes subscription status, product, renewal, cancellation, refund, billing, and entitlement information so Aether can provide and restore paid access. We do not receive your full payment-card information.</p>
+
+    <h2>Diagnostics and product operation</h2>
+    <p>Aether keeps an on-device diagnostics log to help you and support troubleshoot generation and playback problems. RevenueCat provides subscription lifecycle and revenue reporting. Aether does not currently use information for third-party advertising or cross-company tracking.</p>
 
     <h2>Notifications</h2>
     <p>If you allow notifications, Aether schedules optional daily reminders locally on your device. We do not operate a push server and do not see whether or when reminders fire. You can disable notifications at any time in iOS Settings.</p>
@@ -49,7 +58,7 @@
     <p>Aether is not directed to children under 13, and we do not knowingly collect information from children.</p>
 
     <h2>Your control</h2>
-    <p>Because your data lives on your device, you are in control: you can delete individual entries within the app, or remove all app data by deleting the app. Subscriptions can be managed or cancelled in your Apple ID settings.</p>
+    <p>You can delete individual entries in the app, disconnect Sign in with Apple, or use “Delete Aether Data” to delete synchronized Aether content. Deleting synchronized content can remove it from your other devices. Deleting the app alone does not cancel a subscription or necessarily delete data in your private iCloud database. Subscriptions can be managed or cancelled in Aether’s subscription center or your Apple ID settings.</p>
 
     <h2>Changes to this policy</h2>
     <p>If we update this policy, we will revise the “Last updated” date above and, where appropriate, note the change in the app.</p>
