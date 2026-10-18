@@ -8,7 +8,8 @@
   <title>Terms of Service | Delia</title>
   <link rel="icon" type="image/png" href="delia-icon.png" />
   <link rel="apple-touch-icon" href="delia-icon.png" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=support-reveal-1" />
+  <script src="support-contact.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -27,6 +28,7 @@
         <a href="index.html">Home</a>
         <a href="privacy.html">Privacy</a>
         <a href="terms.html" aria-current="page">Terms</a>
+        <a href="support.html">Support</a>
       </nav>
     </div>
   </header>
@@ -113,7 +115,19 @@
 
         <section id="contact" class="legal-section">
           <h2>10. Contact</h2>
-          <p>Questions about these Terms? Email <a href="mailto:deliasupport@gmail.com">deliasupport@gmail.com</a>.</p>
+          <p>Questions about these Terms? Contact our support team below.</p>
+          <div class="support-contact" data-support-contact>
+            <button class="support-button" type="button" data-reveal-email aria-expanded="false" aria-controls="support-email-details">Show support email</button>
+            <div class="support-contact__details" id="support-email-details" hidden>
+              <p class="support-contact__email" data-support-address></p>
+              <div class="support-contact__actions">
+                <button class="support-button support-button--secondary" type="button" data-copy-email>Copy email address</button>
+                <a class="support-button support-button--secondary" data-open-email>Open email app</a>
+              </div>
+              <p class="support-contact__status" data-copy-status role="status" aria-live="polite"></p>
+            </div>
+            <noscript><p>Please enable JavaScript to reveal our support email, or contact us through Feedback in Delia.</p></noscript>
+          </div>
         </section>
       </article>
     </div>
@@ -126,6 +140,7 @@
         <a href="index.html">Home</a>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
+        <a href="support.html">Support</a>
       </nav>
     </div>
   </footer>

@@ -642,3 +642,104 @@ h1 {
     scroll-behavior: auto;
   }
 }
+
+/* Support contact details remain hidden until requested. */
+.support-content {
+  max-width: 720px;
+  padding-bottom: 96px;
+}
+
+.support-card {
+  padding: clamp(22px, 5vw, 40px);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.support-card h2 {
+  margin: 0 0 12px;
+  font-size: 23px;
+}
+
+.support-card > p {
+  color: var(--ink-soft);
+}
+
+.support-button {
+  min-height: 44px;
+  padding: 10px 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid var(--violet);
+  border-radius: 999px;
+  color: #fff;
+  background: var(--violet);
+  font: inherit;
+  font-size: 15px;
+  font-weight: 750;
+  line-height: 1.5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.support-button:hover {
+  color: #fff;
+  background: var(--violet-dark);
+}
+
+.support-button--secondary {
+  color: var(--violet-dark);
+  background: var(--surface);
+  border-color: var(--line);
+}
+
+.support-button--secondary:hover {
+  color: var(--violet-dark);
+  background: var(--surface-soft);
+}
+
+.support-button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.support-contact__details {
+  margin-top: 20px;
+  padding: 20px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.support-contact__details[hidden] {
+  display: none;
+}
+
+.support-contact__email {
+  margin: 0 0 16px;
+  color: var(--ink);
+  font-size: clamp(16px, 3vw, 20px);
+  font-weight: 750;
+  user-select: all;
+}
+
+.support-contact__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.support-contact__status {
+  min-height: 1.65em;
+  margin: 12px 0 0;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.support-card .support-note {
+  margin: 24px 0 0;
+  font-size: 14px;
+}
