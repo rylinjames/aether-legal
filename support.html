@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f5fb" />
+  <meta name="description" content="Get help with Delia, your subscription, or a technical issue." />
+  <title>Support | Delia</title>
+  <link rel="icon" type="image/png" href="delia-icon.png" />
+  <link rel="apple-touch-icon" href="delia-icon.png" />
+  <link rel="stylesheet" href="styles.css?v=support-reveal-1" />
+  <script src="support-contact.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html" aria-label="Delia home">
+        <img class="brand__icon" src="delia-icon.png" alt="" width="44" height="44" />
+        <span>
+          <span class="brand__name">Delia</span>
+          <span class="brand__tagline">Step into your dream life.</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Delia legal and support">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html" aria-current="page">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-shell">
+    <section class="page-hero" aria-labelledby="page-title">
+      <p class="eyebrow">We’re here to help</p>
+      <h1 id="page-title">Delia support</h1>
+      <p class="page-hero__intro">Get help with the app, your subscription, or a technical issue.</p>
+    </section>
+
+    <section class="support-content" aria-labelledby="contact-title">
+      <div class="support-card">
+        <h2 id="contact-title">Contact us</h2>
+        <p>Reveal our email address below. You can copy it or open your preferred email app.</p>
+        <div class="support-contact" data-support-contact>
+          <button class="support-button" type="button" data-reveal-email aria-expanded="false" aria-controls="support-email-details">Show support email</button>
+          <div class="support-contact__details" id="support-email-details" hidden>
+            <p class="support-contact__email" data-support-address></p>
+            <div class="support-contact__actions">
+              <button class="support-button support-button--secondary" type="button" data-copy-email>Copy email address</button>
+              <a class="support-button support-button--secondary" data-open-email>Open email app</a>
+            </div>
+            <p class="support-contact__status" data-copy-status role="status" aria-live="polite"></p>
+          </div>
+          <noscript><p>Please enable JavaScript to reveal our support email, or contact us through Feedback in Delia.</p></noscript>
+        </div>
+        <p class="support-note">For technical issues, include your device model and Delia version so we can help.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>&copy; 2026 Delia. All rights reserved.</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
